@@ -6,4 +6,4 @@ title: "Meus Artigos"
 
 Explore reflexões e publicações que escrevi sobre Inteligência Artificial, Saúde e outros temas.
 
-- [IA em Saúde](artigos/máscaras-de-atenção-em-transformers.md)
+- [IA em Saúde](artigos/mascaras-de-atencao-em-transformers.md)
