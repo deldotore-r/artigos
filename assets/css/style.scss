@@ -1,0 +1,15 @@
+---
+---
+/* Importa primeiro o CSS do tema ativo */
+@import "{{ site.theme }}";
+
+/* Sobrescreve o estilo do corpo para fundo escuro */
+body {
+  background-color: #121212; /* tom escuro */
+  color: #e0e0e0;            /* texto claro */
+}
+
+/* Exemplo: links em tom contrastante */
+a {
+  color: #BB86FC;
+}
