@@ -1,5 +1,6 @@
 ---
 title: "Meus Artigos"
+layout: default
 ---
 
 # Bem-vindo ao meu repositório de artigos!
