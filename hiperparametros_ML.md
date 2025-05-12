@@ -1,5 +1,13 @@
 # Seleção de hiperparâmetros em Machine Learning: escolha manual, Grid Search e Randomized Search.
 
+<br>
+
+<p align="center">
+  <img src="assets/ajustando.png" alt="Ajustando engrenagens" width="400">
+</p>
+
+<br>
+
 A ideia de pesquisar e escrever este artigo surgiu ao assistir o início de uma das excelentes aulas do [Lucas Lattari](https://github.com/lucaslattari), no curso **Redes Neurais e Deep Learning com Python** — um dos cursos que faço atualmente. (Obrigado, Lucas!)
 
 ## Resumo
@@ -56,6 +64,8 @@ Na escolha manual, o pesquisador define os valores dos hiperparâmetros com base
 **Desvantagens:**
 - Pode não explorar todo o espaço de soluções;
 - Forte dependência do conhecimento prévio.
+
+Exemplo de código (escolha manual):
 
 > Embora simples, essa estratégia pode não ser ideal para encontrar o “melhor” conjunto de hiperparâmetros, especialmente em modelos mais complexos ou em espaços de busca grandes.
 
