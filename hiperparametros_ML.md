@@ -67,6 +67,12 @@ Na escolha manual, o pesquisador define os valores dos hiperparâmetros com base
 
 Exemplo de código (escolha manual):
 
+<p align="left">
+  <img src="assets/manual.png" alt="Código Python - escolha manual de hiperparâmetros" width="700">
+</p>
+
+<br>
+
 > Embora simples, essa estratégia pode não ser ideal para encontrar o “melhor” conjunto de hiperparâmetros, especialmente em modelos mais complexos ou em espaços de busca grandes.
 
 ---
@@ -74,6 +80,14 @@ Exemplo de código (escolha manual):
 ### 2.2 Grid Search
 
 O Grid Search define uma grade de valores para cada hiperparâmetro e testa todas as combinações possíveis, geralmente utilizando validação cruzada para estimar o desempenho.
+
+Enquanto essa abordagem garante que todas as combinações preestabelecidas sejam testadas, o seu custo computacional cresce exponencialmente com o número de hiperparâmetros e o número de valores testados para cada um.
+
+Exemplo prático:
+
+<p align="left">
+  <img src="assets/grid.png" alt="Código Python - Grid Search" width="700">
+</p>
 
 **Vantagens:**
 - Exploração exaustiva de combinações;
@@ -89,6 +103,14 @@ O Grid Search define uma grade de valores para cada hiperparâmetro e testa toda
 ### 2.3 Randomized Search
 
 O Randomized Search seleciona aleatoriamente um número fixo de configurações a partir do espaço de hiperparâmetros definido, oferecendo uma boa relação entre exploração e eficiência.
+
+Essa técnica, implementada em RandomizedSearchCV no Scikit-Learn, representa um bom compromisso entre exploração e eficiência computacional. Com o parâmetro n_iter, você define quantas combinações serão testadas, o que possibilita a exploração de um espaço maior sem a necessidade de testar todas as combinações exaustivamente.
+
+Exemplo prático ampliado (utilizando espaço de busca estendido):
+
+<p align="left">
+  <img src="assets/random.png" alt="Código Python - Randomized Search" width="700">
+</p>
 
 **Vantagens:**
 - Explora espaços amplos com menos iterações;
