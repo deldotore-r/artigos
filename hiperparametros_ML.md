@@ -133,11 +133,11 @@ Durante experimentos didáticos com o Perceptron no conjunto de dados `digits`:
 - **Grid Search**: Melhor exploração, mas com custo computacional elevado.
 - **Randomized Search**: Boa acurácia (~95%) com execução eficiente graças ao paralelismo.
 
-### 3.2 Análise Comparativa
+<p align="left">
+  <img src="assets/compara.png" alt="Código Python - Randomized Search" width="500">
+</p>
 
-> Conteúdo técnico comparativo será adicionado futuramente com gráficos e tabelas.
-
-### 3.3 Considerações sobre o Perceptron como Exemplo Didático
+### 3.2 Considerações sobre o Perceptron como Exemplo Didático
 
 Optei pelo Perceptron pela sua simplicidade e interpretabilidade. Mesmo sendo um modelo básico, ele ilustra bem o impacto da otimização de hiperparâmetros, e os conceitos aplicam-se também a modelos mais sofisticados, como SVMs, árvores de decisão ou redes neurais profundas.
 
